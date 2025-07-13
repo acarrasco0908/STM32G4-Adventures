@@ -124,30 +124,30 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 
   uint32_t now = 0;
-  uint32_t last_blink = 0;
-  uint32_t last_tick = 0;
+  uint32_t next_blink = 500;
+  uint32_t next_tick = 1000;
   uint32_t loop_cnt = 0;
 
   while (1)
   {
 	  now = HAL_GetTick();
 
-	  if(now - last_blink >= blink_delays[blink_delay]) {
+	  if(now >= next_blink) {
 		  printf("Toggling GPIO\n");
 
 		  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 
-		  last_blink = now;
+		  next_blink = now + blink_delays[blink_delay];
 	  }
 
-	  if(now - last_tick >= 1000) {
+	  if(now >= next_tick) {
 		  printf("Tick %lu (loop count = %lu)\n", now / 1000, loop_cnt);
 
 		  loop_cnt = 0;
-		  last_tick = now;
+		  next_tick = now + 1000;
 	  }
 
-	  if(button_press == 1) {
+	  if(button_press) {
 
 		  printf("Button pressed\n");
 

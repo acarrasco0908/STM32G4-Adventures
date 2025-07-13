@@ -1,0 +1,17 @@
+23:29:37 **** Incremental Build of configuration Debug for project nucleo-pwm1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "nucleo-pwm1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/antonio/projects/STM32G4-Adventures/nucleo-pwm1/STM32G431RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleo-pwm1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: nucleo-pwm1.elf
+ 
+arm-none-eabi-size  nucleo-pwm1.elf 
+arm-none-eabi-objdump -h -S nucleo-pwm1.elf  > "nucleo-pwm1.list"
+   text	   data	    bss	    dec	    hex	filename
+  23344	    104	   2128	  25576	   63e8	nucleo-pwm1.elf
+Finished building: default.size.stdout
+ 
+Finished building: nucleo-pwm1.list
+ 
+
+23:29:37 Build Finished. 0 errors, 0 warnings. (took 233ms)
+

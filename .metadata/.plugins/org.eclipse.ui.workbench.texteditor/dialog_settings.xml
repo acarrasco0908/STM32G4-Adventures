@@ -3,6 +3,14 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="led"/>
+		<item value="hal_tim_periodela"/>
+		<item value="hal_tim_period_ela"/>
+		<item value="weak"/>
+		<item value="hal_tim_period"/>
+		<item value="interrupt"/>
+		<item value="exti"/>
+		<item value="ext"/>
 		<item value="pin"/>
 		<item value="pin5"/>
 	</list>

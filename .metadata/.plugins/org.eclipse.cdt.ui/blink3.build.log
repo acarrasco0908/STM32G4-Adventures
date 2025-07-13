@@ -1,10 +1,17 @@
-01:13:19 **** Incremental Build of configuration Debug for project blink3 ****
+00:01:50 **** Incremental Build of configuration Debug for project blink3 ****
 make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G431xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "blink3.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/antonio/projects/STM32G4-Adventures/blink3/STM32G431RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blink3.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: blink3.elf
+ 
 arm-none-eabi-size  blink3.elf 
+arm-none-eabi-objdump -h -S blink3.elf  > "blink3.list"
    text	   data	    bss	    dec	    hex	filename
-  18744	    112	   2056	  20912	   51b0	blink3.elf
+  18748	    112	   2056	  20916	   51b4	blink3.elf
 Finished building: default.size.stdout
  
+Finished building: blink3.list
+ 
 
-01:13:19 Build Finished. 0 errors, 0 warnings. (took 82ms)
+00:01:50 Build Finished. 0 errors, 0 warnings. (took 225ms)
 
