@@ -1,0 +1,107 @@
+2025-07-14 00:04:59,928 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 750207320 Bytes (1073741824)
+2025-07-14 00:05:00,398 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 793159968 Bytes (1073741824)
+2025-07-14 00:05:00,543 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8G4
+2025-07-14 00:05:00,543 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-07-14 00:05:00,543 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-07-14 00:05:00,544 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-07-14 00:05:00,544 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-07-14 00:05:00,545 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-07-14 00:05:00,545 [INFO] CodeGenerator:892 - code generatio: config db path: /home/antonio/st/stm32cubeide_1.14.0/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2025-07-14 00:05:00,624 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/license.tmp_save
+2025-07-14 00:05:00,742 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/license.tmp
+2025-07-14 00:05:00,769 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/gpio.tmp_save
+2025-07-14 00:05:00,830 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/gpio.tmp
+2025-07-14 00:05:00,957 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_it.c_save
+2025-07-14 00:05:01,072 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_it.c
+2025-07-14 00:05:01,073 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_it.h_save
+2025-07-14 00:05:01,117 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_it.h
+2025-07-14 00:05:01,123 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_hal_msp.c_save
+2025-07-14 00:05:01,209 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_hal_msp.c
+2025-07-14 00:05:01,210 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/system.tmp_save
+2025-07-14 00:05:01,249 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/system.tmp
+2025-07-14 00:05:01,252 [INFO] CodeEngine:321 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_hal_conf.h_save
+2025-07-14 00:05:01,286 [INFO] CodeEngine:345 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_hal_conf.h
+2025-07-14 00:05:01,293 [WARN] IPConfigManager:3238 - Warning: the RefConfig RCC_CommonPeriphClockConfig is not available in your config.xml file
+2025-07-14 00:05:01,294 [WARN] IPConfigManager:3811 - IP not found : TIM
+2025-07-14 00:05:01,294 [WARN] CodeGenerator:4259 - IP not found : null
+2025-07-14 00:05:01,296 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/main.h_save
+2025-07-14 00:05:01,347 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/main.h
+2025-07-14 00:05:01,348 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/main.c_save
+2025-07-14 00:05:01,400 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/main.c
+2025-07-14 00:05:01,490 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 12mS.
+2025-07-14 00:05:01,491 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-07-14 00:05:01,528 [INFO] ConfigFileManager:1595 - The Die is : DIE468
+2025-07-14 00:05:01,955 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 463mS.
+2025-07-14 00:05:01,955 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-07-14 00:05:01,955 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-07-14 00:10:01,993 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 779549640 Bytes (1073741824)
+2025-07-14 00:10:02,064 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8G4
+2025-07-14 00:10:02,065 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-07-14 00:10:02,065 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-07-14 00:10:02,065 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-07-14 00:10:02,065 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-07-14 00:10:02,065 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-07-14 00:10:02,065 [INFO] CodeGenerator:892 - code generatio: config db path: /home/antonio/st/stm32cubeide_1.14.0/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2025-07-14 00:10:02,159 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/license.tmp_save
+2025-07-14 00:10:02,252 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/license.tmp
+2025-07-14 00:10:02,287 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/gpio.tmp_save
+2025-07-14 00:10:02,342 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/gpio.tmp
+2025-07-14 00:10:02,466 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_it.c_save
+2025-07-14 00:10:02,516 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_it.c
+2025-07-14 00:10:02,517 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_it.h_save
+2025-07-14 00:10:02,558 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_it.h
+2025-07-14 00:10:02,562 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_hal_msp.c_save
+2025-07-14 00:10:02,612 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_hal_msp.c
+2025-07-14 00:10:02,613 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/system.tmp_save
+2025-07-14 00:10:02,642 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/system.tmp
+2025-07-14 00:10:02,644 [INFO] CodeEngine:321 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_hal_conf.h_save
+2025-07-14 00:10:02,674 [INFO] CodeEngine:345 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_hal_conf.h
+2025-07-14 00:10:02,681 [WARN] IPConfigManager:3238 - Warning: the RefConfig RCC_CommonPeriphClockConfig is not available in your config.xml file
+2025-07-14 00:10:02,682 [WARN] IPConfigManager:3811 - IP not found : TIM
+2025-07-14 00:10:02,682 [WARN] CodeGenerator:4259 - IP not found : null
+2025-07-14 00:10:02,683 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/main.h_save
+2025-07-14 00:10:02,714 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/main.h
+2025-07-14 00:10:02,715 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/main.c_save
+2025-07-14 00:10:02,762 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/main.c
+2025-07-14 00:10:02,853 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 14mS.
+2025-07-14 00:10:02,854 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-07-14 00:10:02,892 [INFO] ConfigFileManager:1595 - The Die is : DIE468
+2025-07-14 00:10:03,143 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 288mS.
+2025-07-14 00:10:03,143 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-07-14 00:10:03,143 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
+2025-07-14 00:14:18,395 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 543077968 Bytes (1073741824)
+2025-07-14 00:14:18,737 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 580320736 Bytes (1073741824)
+2025-07-14 00:14:18,893 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8G4
+2025-07-14 00:14:18,893 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-07-14 00:14:18,893 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-07-14 00:14:18,893 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-07-14 00:14:18,893 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-07-14 00:14:18,893 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-07-14 00:14:18,894 [INFO] CodeGenerator:892 - code generatio: config db path: /home/antonio/st/stm32cubeide_1.14.0/plugins/com.st.stm32cube.common.mx_6.15.0.202507011659//db/
+2025-07-14 00:14:18,963 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/license.tmp_save
+2025-07-14 00:14:19,050 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/license.tmp
+2025-07-14 00:14:19,080 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/gpio.tmp_save
+2025-07-14 00:14:19,123 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/gpio.tmp
+2025-07-14 00:14:19,244 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_it.c_save
+2025-07-14 00:14:19,285 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_it.c
+2025-07-14 00:14:19,286 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_it.h_save
+2025-07-14 00:14:19,317 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_it.h
+2025-07-14 00:14:19,321 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_hal_msp.c_save
+2025-07-14 00:14:19,377 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/stm32g4xx_hal_msp.c
+2025-07-14 00:14:19,377 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/system.tmp_save
+2025-07-14 00:14:19,407 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/MXTmpFiles/system.tmp
+2025-07-14 00:14:19,409 [INFO] CodeEngine:321 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_hal_conf.h_save
+2025-07-14 00:14:19,438 [INFO] CodeEngine:345 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/stm32g4xx_hal_conf.h
+2025-07-14 00:14:19,445 [WARN] IPConfigManager:3238 - Warning: the RefConfig RCC_CommonPeriphClockConfig is not available in your config.xml file
+2025-07-14 00:14:19,446 [WARN] IPConfigManager:3811 - IP not found : TIM
+2025-07-14 00:14:19,446 [WARN] CodeGenerator:4259 - IP not found : null
+2025-07-14 00:14:19,447 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/main.h_save
+2025-07-14 00:14:19,481 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Inc/main.h
+2025-07-14 00:14:19,482 [INFO] CodeEngine:265 - oldGeneratedFile, /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/main.c_save
+2025-07-14 00:14:19,532 [INFO] CodeEngine:289 - Generated code: /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/Core/Src/main.c
+2025-07-14 00:14:19,625 [INFO] ProjectBuilder:3606 - Time for Copy HAL[1] : 13mS.
+2025-07-14 00:14:19,625 [INFO] ProjectBuilder:5216 - Project Generator version: 4.7.0-B52
+2025-07-14 00:14:19,666 [INFO] ConfigFileManager:1595 - The Die is : DIE468
+2025-07-14 00:14:20,061 [INFO] ProjectBuilder:5496 - Time for Generating toolchain IDE Files: 436mS.
+2025-07-14 00:14:20,062 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 1mS.
+2025-07-14 00:14:20,062 [INFO] ProjectBuilder:3463 - Time for Copy CMSIS : 0mS.
