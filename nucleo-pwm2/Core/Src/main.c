@@ -75,6 +75,11 @@ int _write(int fd, char* ptr, int len)
   return -1;
 }
 
+inline uint32_t HAL_GetTick(void)
+{
+  return uwTick;
+}
+
 /* USER CODE END 0 */
 
 /**
@@ -109,11 +114,11 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  printf("\n\n");
-  printf("Starting Nucleo-PWM2\n");
-  printf("--------------------\n");
+  printf("\n\n\r");
+  printf("Starting Nucleo-PWM2\n\r");
+  printf("--------------------\n\r");
 
-  printf("Starting timer channel\n");
+  printf("Starting timer channel\n\r");
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_2);
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_3);
@@ -133,11 +138,16 @@ int main(void)
 
   while (1)
   {
+	  // Redefining HAL_GetTick() in main.c and using "inline" should give me better performance.
+	  // but for some reason it is not. Using now = uwTick gets me better results even though
+	  // they should be the same.
+
 	  now = HAL_GetTick();
+	  //now = uwTick;
 
 	  if(now >= next_tick) {
-		  printf("Tick %lu (loop = %lu)\n", now / 1000, loop_count);
-		  printf("PWM value %u\n", pwm_value);
+		  printf("Tick %lu (loop = %lu)\n\r", now / 1000, loop_count);
+		  printf("PWM value %u\n\r", pwm_value);
 
 		  loop_count = 0;
 		  next_tick = now + 1000;

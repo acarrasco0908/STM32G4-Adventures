@@ -60,8 +60,8 @@ all: main-build
 main-build: nucleo-pwm2.elf secondary-outputs
 
 # Tool invocations
-nucleo-pwm2.elf nucleo-pwm2.map: $(OBJS) $(USER_OBJS) /home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/STM32G431RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "nucleo-pwm2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/antonio/projects/STM32G4-Adventures/nucleo-pwm2/STM32G431RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleo-pwm2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+nucleo-pwm2.elf nucleo-pwm2.map: $(OBJS) $(USER_OBJS) C:\Data\code\STM32G4-Adventures\nucleo-pwm2\STM32G431RBTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "nucleo-pwm2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Data\code\STM32G4-Adventures\nucleo-pwm2\STM32G431RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="nucleo-pwm2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

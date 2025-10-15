@@ -1,0 +1,3 @@
+../rng/rng.c:18:10:rng_run	2
+../rng/rng.c:33:6:rng_init	1
+../rng/rng.c:58:6:rng_task	1
