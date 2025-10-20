@@ -142,8 +142,8 @@ int main(void)
 	  // but for some reason it is not. Using now = uwTick gets me better results even though
 	  // they should be the same.
 
-	  now = HAL_GetTick();
-	  //now = uwTick;
+	  //now = HAL_GetTick();
+	  now = uwTick;
 
 	  if(now >= next_tick) {
 		  printf("Tick %lu (loop = %lu)\n\r", now / 1000, loop_count);
